@@ -1,3 +1,7 @@
+.box{
+    width: 100%;
+    overflow: hidden;
+}
 .wrap{
     width: 98%;
     margin:0 auto;
