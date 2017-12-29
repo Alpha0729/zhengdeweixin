@@ -24,9 +24,10 @@
 }
 /*主体内容*/
 .content{
-    margin-top:.5rem;
+
 }
 .content h2{
+    margin-top:.5rem;
     color:#78b3fe;
     padding-left:.5rem ;
     font-size: .8em;
@@ -40,8 +41,9 @@
     margin-top: .5rem;
 }
 .content .content-content p{
+    font-family: '楷体';
     margin-top: .3rem;
-    font-size:.6rem;
+    font-size:.7rem;
     color:#333;
     text-indent:2em;
 }
