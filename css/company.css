@@ -1,49 +1,113 @@
-.box{
+body {
+    font-family: '楷体';
+    background-color: #f9f9f9;
+    height: 20000px;
+}
+
+.box {
     width: 100%;
     overflow: hidden;
 }
-.wrap{
+
+.wrap {
     width: 98%;
-    margin:0 auto;
+    margin: 0 auto;
 }
-.header .header-top{
+
+.header .header-top {
     padding: 0 2%;
     width: 100%;
     height: 1rem;
     line-height: 1rem;
     background-color: #78b3fe;
-    font-size:.6rem;
-    color:#fff;
+    font-size: .6rem;
+    color: #fff;
 }
-.header .header-bottom{
+
+.header .header-bottom {
     height: 7.8rem;
     overflow: hidden;
 }
-.header .header-bottom .header-bottom-img{
+
+.header .header-bottom .header-bottom-img {
     width: 100%;
 }
+
 /*主体内容*/
-.content{
+.content {
 
 }
-.content h2{
-    margin-top:.5rem;
-    color:#78b3fe;
-    padding-left:.5rem ;
+
+.content h2 {
+    margin-top: .5rem;
+    color: #78b3fe;
+    padding-left: .5rem;
     font-size: .8em;
-    border-left:3px solid #f00c0c;
+    border-left: 3px solid #f00c0c;
 }
-.content h2 i{
-    font-weight:normal;
+
+.content h2 i {
+    font-weight: normal;
     font-style: normal;
 }
-.content .content-content{
+
+.content .content-content {
     margin-top: .5rem;
 }
-.content .content-content p{
+
+.content .content-content p {
     font-family: '楷体';
     margin-top: .3rem;
-    font-size:.7rem;
-    color:#333;
-    text-indent:2em;
+    font-size: .7rem;
+    color: #334;
+    text-indent: 2em;
 }
+
+.content .content-DH {
+    margin-top: .3rem;
+    background-color: #848daa;
+    color: #fff;
+    padding: .5rem .5rem;
+}
+
+.content .content-DH .content-DH-one {
+    margin-top: .5rem;
+    display: block;
+}
+
+.content .content-DH h6 {
+    font-size: .9rem;
+    color: #ffb820;
+}
+
+.content .content-DH .content-DH-one i {
+    font-style: normal;
+    font-size: .6rem;
+}
+
+.content .content-h {
+
+}
+
+.content .content-h .content-h-content {
+    margin-top: .5rem;
+    padding: .5rem .5rem;
+    line-height: 1.5rem;
+    width: 100%;
+    background: url("../images/bac.png") no-repeat;
+    background-size: 22rem;
+    font-size: .9rem;
+    font-weight: bold;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
