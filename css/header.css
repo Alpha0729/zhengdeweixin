@@ -1,0 +1,9 @@
+.header .header-top {
+    padding: 0 2%;
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    background-color: #78b3fe;
+    font-size: .6rem;
+    color: #fff;
+}

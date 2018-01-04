@@ -1,0 +1,17 @@
+.footer-copyright .code{
+    text-align: center;
+}
+.footer-copyright .code img{
+    display: inline-block;
+    width: 10rem;
+    height: 10rem;
+}
+.footer-copyright span{
+    background-color: #aaa;
+    font-size: .6rem;
+    text-align: center;
+    line-height: 1.5rem;
+    margin-top: .5rem;
+    color: #333;
+    display: block;
+}
