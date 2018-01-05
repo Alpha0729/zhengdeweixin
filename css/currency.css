@@ -48,7 +48,10 @@ a:visited {
     border-top: 1px solid #ccc;
     margin: .5rem auto;
 }
-
+.wrap {
+    width: 98%;
+    margin: 0 auto;
+}
 
 
 
