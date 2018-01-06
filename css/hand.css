@@ -1,6 +1,5 @@
 .box {
     overflow:hidden;
-    height: 20000px;
 }
 
 .header .header-top {
@@ -87,6 +86,7 @@
     border-radius: 10px;
     font-size:.6rem;
 }
+/*课程列表*/
 .content .content-table{
     text-align: center;
 }
@@ -94,21 +94,74 @@
     margin-top: .5rem;
     display: inline-block;
     background-color: #333;
-    font-size:.7rem;
+    font-size:.6rem;
 }
 .content .content-table table th,td{
     text-align: center;
-    padding:.4rem .4rem;
+    padding:.4rem;
     background-color: #fff;
+
 }
-.content .content-table table td{
+.content .content-table table th{
+
+}
+.content .content-good{
+    margin-top: .5rem;
+    font-size:.65rem;
+    line-height: 1.2rem;
+}
+.content .content-good p{
+    border:1px dashed #ccc;
+    padding:.4rem;
+    margin-top: .5rem;
     font-size:.6rem;
 }
+.content .content-good b{
+    margin-right:.3rem ;
+    font-size:.7rem;
+    background-color: #762e2f;
+    color:#fff;
+    padding:.2rem .4rem;
+    border-radius:10px;
+}
+.content .content-space{
+    font-size: .6rem;
+    margin-top: .5rem;
+}
+.content .content-space img{
+    margin-top: .5rem;
+    width: 100%;
 
-
-
-
-
+}
+.content .content-space p{
+    padding: .4rem;
+    border:1px dashed #ccc;
+}
+.content .content-bottom{
+    margin-top: .5rem;
+}
+.content .content-bottom p{
+    border:1px dashed #ccc;
+    padding: .4rem;
+    font-size:.6rem;
+    line-height: 1rem;
+    text-indent: 2em;
+}
+.content .content-phone{
+    margin-top: .5rem;
+    font-size:.6rem;
+    line-height: 1rem;
+}
+.content .content-phone p{
+    margin-top: .4rem;
+    border:1px dashed #ccc;
+    padding:.4rem;
+}
+.content .content-phone p i{
+    font-style: normal;
+    text-decoration:underline;
+    color:#555;
+}
 
 
 
